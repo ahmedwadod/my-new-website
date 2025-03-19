@@ -1,15 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: "Fira Code", ui-monospace;
+  --color-primary: #1e2232;
+  --color-secondary: #ff8226;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+	@apply text-primary bg-pink-50 dark:bg-primary dark:text-white;
+	@media (prefers-color-scheme: dark) {
+		color-scheme: dark;
+	}
 }
+
+.mono {
+	font-family: "Fira Code", ui-monospace;
+}
+
+@keyframes shake-pause {
+  0%, 10% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  30% { transform: translateX(5px); }
+  40% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  60%, 100% { transform: translateX(0); }
+}
+
+.shake-button {
+  animation: shake-pause 2s infinite ease-in-out;
+}
+

@@ -1,5 +1,5 @@
-import Landing from "~/homepage/landing";
-import type { Route } from "./+types/home";
+import AboutMe from "~/about/aboutme";
+import type { Route } from "./+types/about";
 
 export function meta({ }: Route.MetaArgs) {
 	return [
@@ -10,6 +10,6 @@ export function meta({ }: Route.MetaArgs) {
 	];
 }
 
-export default function Home() {
-	return <Landing />;
+export default function About() {
+	return <AboutMe />;
 }
