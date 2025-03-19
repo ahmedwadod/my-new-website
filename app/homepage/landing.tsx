@@ -2,7 +2,7 @@ import Button from "~/ui/link_button";
 
 export default function Landing() {
 	return (
-		<main className="p-10 w-screen grid grid-cols-1 md:grid-cols-2 gap-16">
+		<main className="grid grid-cols-1 md:grid-cols-2 gap-16">
 			<section className="col-span-1">
 				<img className="w-32 h-32 rounded-full border-4 border-white shadow-lg"
 					src="/me.jpeg" alt="Ahmed Elkhalifa" />
@@ -15,7 +15,7 @@ export default function Landing() {
 				</p>
 				<div className="flex gap-4">
 					<a href="mailto:ahmed@elkhalifa.dev">
-						<Button text="Hire me" className="bg-teal-700 shake-button" />
+						<Button text="Hire me 👋" className="bg-teal-700 shake-button" />
 					</a>
 				</div>
 			</section>

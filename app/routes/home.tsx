@@ -1,5 +1,6 @@
 import Landing from "~/homepage/landing";
 import type { Route } from "./+types/home";
+import Highlighted from "~/homepage/highlighted";
 
 export function meta({ }: Route.MetaArgs) {
 	return [
@@ -11,5 +12,8 @@ export function meta({ }: Route.MetaArgs) {
 }
 
 export default function Home() {
-	return <Landing />;
+	return <main className="p-10">
+		<Landing />
+		<Highlighted />
+	</main>;
 }
