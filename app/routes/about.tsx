@@ -1,5 +1,6 @@
 import AboutMe from "~/about/aboutme";
 import type { Route } from "./+types/about";
+import MyStack from "~/about/mystack";
 
 export function meta({ }: Route.MetaArgs) {
 	return [
@@ -11,5 +12,8 @@ export function meta({ }: Route.MetaArgs) {
 }
 
 export default function About() {
-	return <AboutMe />;
+	return <main className="p-10">
+		<AboutMe />
+		<MyStack />
+	</main>
 }

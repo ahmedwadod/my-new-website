@@ -1,0 +1,10 @@
+{
+	"name": "Ahmed Elkhalifa",
+	"dob": "1999-04-04",
+	"email": "ahmed@elkhalifa.dev",
+	"occupation": "Software Engineer",
+	"location": "Kampala, Uganda",
+	"yearsOfExperience": 10,
+	"lookingForJob": true,
+	"favoriteLanguages": ["JavaScript", "TypeScript", "C++"]
+}

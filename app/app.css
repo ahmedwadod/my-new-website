@@ -10,7 +10,7 @@
 
 html,
 body {
-	@apply text-primary bg-pink-50 dark:bg-primary dark:text-white;
+	@apply text-primary bg-pink-50 dark:bg-primary dark:text-teal-50;
 	@media (prefers-color-scheme: dark) {
 		color-scheme: dark;
 	}
