@@ -1,5 +1,5 @@
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { vs2015 as style } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vs2015 } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import { useEffect, useState } from "react";
 
 export default function AboutMe() {
@@ -15,7 +15,7 @@ export default function AboutMe() {
 	return <main className="flex flex-col">
 		<h1 className="text-4xl font-bold mb-4">About Me</h1>
 		<div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-			<SyntaxHighlighter language="json" style={style} className="rounded-2xl shadow-2xl">
+			<SyntaxHighlighter language="json" style={vs2015} className="rounded-2xl shadow-2xl">
 				{aboutFile}
 			</SyntaxHighlighter>
 			<div className="font-mono flex flex-col gap-8">
