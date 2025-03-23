@@ -2,7 +2,7 @@
   "name": "my-new-website",
   "private": true,
   "type": "module",
-  "homepage": "https://ahmedwadod.github.io",
+  "homepage": "https://elkhalifa.dev",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
