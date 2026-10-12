@@ -22,7 +22,7 @@ export default function Footer() {
 						ahmed@elkhalifa.dev
 					</SocialMediaLink>
 					<p className="font-mono">
-						Kampala, Uganda
+						Nairobi, Kenya
 					</p>
 				</div>
 				<div className="flex flex-col gap-2">

@@ -8,7 +8,7 @@ export default function Landing() {
 					src="/me.jpeg" alt="Ahmed Elkhalifa" />
 				<h1 className="text-3xl font-bold mt-2">Ahmed Elkhalifa</h1>
 				<p className="font-mono">
-					Software Developer @ <a href="https://conefia.com" className="underline">Conefia</a>
+					Tech Lead @ <a href="https://www.linkedin.com/company/suhubhealthcare/" className="underline">Suhub Healthcare</a>
 				</p>
 				<p className="font-mono mt-2 mb-4">
 					Hey, I’m Ahmed – a tech enthusiast and coding wizard with over 10 years of experience. I'm a swiss knife in the tech world, I work on all type of projects from web and mobile apps down to embedded systems. I love working with startups and I enjoy the unique challenges they bring. I'm always looking for new opportunities to learn and grow.
