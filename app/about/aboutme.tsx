@@ -19,8 +19,10 @@ export default function AboutMe() {
 				{aboutFile}
 			</SyntaxHighlighter>
 			<div className="font-mono flex flex-col gap-8">
+				<JobHistory title='Tech Lead'
+					company='Suhub Healthcare' duration='1 year' />
 				<JobHistory title='Fullstack Mobile Developer'
-					company='Conefia' duration='Current' />
+					company='Conefia' duration='10 months' />
 				<JobHistory title='Software Developer'
 					company='School Pal' duration='6 months' />
 				<JobHistory title='DevOps Engineer'
